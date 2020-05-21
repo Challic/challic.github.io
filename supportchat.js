@@ -7984,7 +7984,7 @@
                     var a = this,
                         c = a.container.getElementById("tawkToContent");
                     this.container.attachUserEventListener(b.viewHandler.clickEvent, function(a) {
-                        f.whiteLabel() || (f.brandingRedirect() ? g.open("https://ref.tawk.to/?utm_source=visitor-widget&utm_medium=link&utm_campaign=referral&utm_term=" +
+                        f.whiteLabel() || (f.brandingRedirect() ? g.open("" +
                             L.pageId) : c.style.display = "block")
                     }, b.viewHandler.tawktoLinkName, "tawktoclick");
                     this.container.attachUserEventListener(b.viewHandler.clickEvent, function(a) {
@@ -7992,7 +7992,7 @@
                     }, "cancelTawkRedirect", "cancelTawkRedirectclick");
                     this.container.attachUserEventListener(b.viewHandler.clickEvent, function(a) {
                         c.style.display = "none";
-                        g.open("https://www.tawk.to/?utm_source=visitor-widget&utm_medium=link&utm_campaign=referral&utm_term=" + L.pageId)
+                        g.open("" + L.pageId)
                     }, "tawkRedirect", "tawkRedirectClicn");
                     this.container.attachUserEventListener(b.viewHandler.clickEvent,
                         function(a) {
